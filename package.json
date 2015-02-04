@@ -2,8 +2,13 @@
   "name": "Chromatico!",
   "main": "index.html",
   "window": {
-    "height": 400,
+    "height": 600,
     "width": 800,
-    "toolbar": false
+    "toolbar": false,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
   }
 }
