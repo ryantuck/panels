@@ -10,5 +10,12 @@
     "min_height": 200,
     "max_width": 800,
     "max_height": 600
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryantuck/xmas"
   }
 }
