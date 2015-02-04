@@ -1,0 +1,9 @@
+{
+  "name": "Chromatico!",
+  "main": "index.html",
+  "window": {
+    "height": 400,
+    "width": 800,
+    "toolbar": false
+  }
+}
