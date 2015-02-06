@@ -1,6 +1,6 @@
 {
   "name": "Chromatico!",
-  "main": "index.html",
+  "main": "./templates/index.html",
   "window": {
     "height": 600,
     "width": 800,
@@ -12,7 +12,9 @@
     "max_height": 600
   },
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "cylon": "latest",
+    "cylon-firmata": "latest"
   },
   "repository": {
     "type": "git",

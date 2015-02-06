@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flask Buildup Test</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+
+<body>
+  <h1>Hello World</h1>
+  <h3>This is cool</h3>
+  <button id="xButton" type="button" name="xButton">This changes a variable</button>
+
+  <p id="xVal">{{ x }}</p>
+  <p>{{ myVariable }}</p>
+  <script src="static/script.js"></script>
+</body>
+
+</html>
