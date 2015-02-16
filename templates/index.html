@@ -4,7 +4,9 @@
 <head>
   <title>Flask Buildup Test</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -15,6 +17,10 @@
   <p id="xVal">{{ x }}</p>
   <p>{{ myVariable }}</p>
   <script src="static/script.js"></script>
+
+  <div id="content"></div>
+  
+  <script src="static/build/example2.js"></script>
 </body>
 
 </html>
